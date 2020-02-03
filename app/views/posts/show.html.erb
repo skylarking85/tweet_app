@@ -4,5 +4,6 @@
         <p><%= @post.content %></p>
         <div class="post-time"><%= @post.created_at %></div>
     </div>
+    <%= link_to("Edit", "/posts/#{@post.id}/edit") %>
   </div>
 </div>
